@@ -14,6 +14,6 @@ jobs:
           run: echo ${GITHUB_REF}
 
         - name: Sha
-          run: "echo The following is the sha of the github commit: ${GITHUB_REF}"
+          run: "echo The following is the sha of the github commit: ${GITHUB_SHA}"
 
 
