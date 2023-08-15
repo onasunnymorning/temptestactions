@@ -10,7 +10,10 @@ jobs:
         runs-on: ubuntu-latest
         steps:
     
-        - name: Echo
+        - name: Ref
           run: echo ${GITHUB_REF}
+
+        - name: Sha
+          run: "echo The following is the sha of the github commit: ${GITHUB_REF}"
 
 
