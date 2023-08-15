@@ -10,7 +10,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
     
-        - name: Build
-          run: "echo repository variable : ${GITHUB_REF}"
+        - name: Echo
+          run: "echo repository variable : ${{GITHUB_REF}}"
 
 
