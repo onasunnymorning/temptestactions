@@ -1,0 +1,16 @@
+name: Test Vars
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+    Test:
+        name: Test Action
+        runs-on: ubuntu-latest
+        steps:
+    
+        - name: Build
+          run: "echo repository variable : $GITHUB_REF"
+
+
