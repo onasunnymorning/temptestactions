@@ -11,6 +11,6 @@ jobs:
         steps:
     
         - name: Echo
-          run: "echo repository variable : ${{GITHUB_REF}}"
+          run: echo ${GITHUB_REF}
 
 
